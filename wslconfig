@@ -1,0 +1,4 @@
+[wsl2]
+memory=20GB        # Maximale zugewiesene RAM (z. B. 8GB)
+processors=7      # Maximale Anzahl von CPU-Kernen (z. B. 4 Kerne)
+swap=8GB          # Größe des Swap-Speichers (z. B. 8GB)
