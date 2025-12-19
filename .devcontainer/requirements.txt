@@ -1,0 +1,46 @@
+# Allgemeine Pakete
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+jupyterlab
+ipython
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+
+# Deep Learning
+# tensorflow
+# keras
+
+# Visualisierung
+plotly
+altair
+pyqt5
+pyqtwebengine
+
+# Sonstiges
+notebook
+jupyterlab
+black
+flake8
+isort
+pyyaml
+requests
+beautifulsoup4
+pytest
+coverage
+
+# Eigene Pakete
+langchain
+sentence-transformers
+faiss-cpu
+# tf-keras
+llama-cpp-python
+nltk
+tiktoken
+docling
+huggingface-hub

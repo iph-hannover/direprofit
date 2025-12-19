@@ -1,0 +1,22 @@
+{
+  "name": "Python Dev DireProFit_env",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    //"source=C:/arbeit/sprachModelle,target=/mnt/models,type=bind"
+    // benanntes Volume für persistente Modelle
+    //"source=model,target=/model,type=volume"
+	"source=${localWorkspaceFolder}/model,target=/model,type=bind"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/download_model.sh"
+}
